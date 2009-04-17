@@ -153,7 +153,7 @@ class Md_weegee
 		  return;
 		}
 		
-		$LANG->fetch_language_file('weegee');
+		$LANG->fetch_language_file('md_weegee');
 		$extra = ($EXT->last_call !== FALSE) ? $EXT->last_call : '';
 		return $extra.$DSP->table_qcell('tableHeadingAlt', $LANG->line('image'));
 	}
