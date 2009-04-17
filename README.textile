@@ -8,8 +8,6 @@ h2. Info
 
 Developed by Ryan Masuga, http://masugadesign.com
 
-This extension allows you to easily see what entries are expired – or set to expire in the future. A brand new dropdown is inserted in the search area of the Edit page so you can also filter by entries that are expired. Very handy if you use EE’s built in entry expiration!
-
 Docs: "MD Weegee":http://www.masugadesign.com/the-lab/scripts/weegee/ <br />
 EE Extension Info: http://expressionengine.com/docs/development/extensions.html
 
