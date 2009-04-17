@@ -1,0 +1,42 @@
+h1. MD Weegee
+
+This works well if you have one weblog that is used as a "gallery". Unfortunately this _only_ works on a field whose Field Type is "File" – which is another 3rd-party extension by Mark Huot. In the MD Weegee settings, you enter one field id (the field id for the File field you have) – and MD Weegee will put a thumb from that field on the Edit page. This also only works with one weblog right now.
+
+If you can improve on the functionality of this add-on, please feel free to clone/fork it and make it happen, captain.
+
+h2. Info
+
+Developed by Ryan Masuga, http://masugadesign.com
+
+This extension allows you to easily see what entries are expired – or set to expire in the future. A brand new dropdown is inserted in the search area of the Edit page so you can also filter by entries that are expired. Very handy if you use EE’s built in entry expiration!
+
+Docs: "MD Weegee":http://www.masugadesign.com/the-lab/scripts/weegee/ <br />
+EE Extension Info: http://expressionengine.com/docs/development/extensions.html
+
+Related EE Forum Thread: "Extension: Weegee - Add thumbnail image for entries on the EE CP Edit page":http://expressionengine.com/forums/viewthread/84513/
+
+h2. Installation
+
+# Put lang.weegee.php in your */system/language/english* folder
+# Put ext.weegee.php in your */system/extensions* folder.
+# Enable Weegee in Extensions (Admin > Utilities > Extensions Manager)
+# In the settings, Eenter the field id number of the File field for which you want to show thumbnails
+# Change the width of the thumbnails, if desired
+
+h2. Changelog
+
+*1.0.2 - (April 17, 2009)*
+
+* Changed name to MD Weegee
+* Remove version info from language file
+* Added LG Addon Updater checking
+* Changed End of File to follow EE guidelines
+* Updated how settings are stored
+
+1.0.1 – (January 12, 2009)
+
+* Removed outdated "Check for Update" method that was causing errors on the Control Panel homepage.
+
+1.0.0 – (July 8, 2008)
+
+* Initial release.
